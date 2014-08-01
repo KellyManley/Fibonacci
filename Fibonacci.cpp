@@ -15,6 +15,7 @@ June 4, 2014
 #include <cstdlib>
 using namespace std;
 
+int Fibonacci(int num);
 
 int _tmain()
 {
@@ -22,6 +23,10 @@ int _tmain()
 
 	cout << "Please enter a positive integer:";
 	cin >> num;
+
+
+	return 0;
+}  // End of Main
 
 
     int Fibonacci(int num);
@@ -39,6 +44,3 @@ int _tmain()
 		}
 
 	}  // End of Function
-
-	return 0;
-}  // End of Main
